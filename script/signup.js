@@ -10,3 +10,13 @@ function loginopen(){
     su.style.zIndex = 0
     li.style.zIndex = 1
 }
+function signupclose(){
+    su.style.display = "none"
+    su.style.zIndex = 1
+    li.style.zIndex = 0
+}
+function loginclose(){
+    li.style.display = "none"
+    su.style.zIndex = 0
+    li.style.zIndex = 1
+}
